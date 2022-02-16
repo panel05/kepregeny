@@ -1,8 +1,14 @@
 body {
-
+    background-image: url("kepek/hatter3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9;
 }
 
 main {
     width: 800px;
     margin: auto;
+    background-color: wheat;
+    text-align: center;
 }
