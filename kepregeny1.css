@@ -3,12 +3,23 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    opacity: 0.9;
+    /* opacity: 0.9; */
 }
 
 main {
-    width: 800px;
+    width: 1000px;
     margin: auto;
     background-color: wheat;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+}
+
+article .comics {
+    flex-direction: row;
 }
