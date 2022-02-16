@@ -6,12 +6,17 @@ body{
     opacity: 0.9;
 }
 main{
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
     background-color: wheat;
     display: flex;
     flex-direction: column;
 
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 nav ul{
@@ -21,14 +26,26 @@ nav ul{
 li a{
     text-decoration: none;
 }
+li a:visited{
+    color: black;
+}
+
+li a:hover{
+    cursor: pointer;
+    color: blue;
+}
 
 footer{
     text-align: center;
     font-size: smaller;
 }
-
+.mini{
+    font-size: x-small;
+}
 header{
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 article img{
@@ -40,12 +57,13 @@ article img{
 }
 
 article img:hover{
-    transform: scale(1.5);
+    transform: scale(1.35);
+    cursor: pointer;
 }
 
 article{
     display: flex;
     flex-direction: row;
     gap: 10px;
-    justify-content: center;
+    justify-content: space-evenly;
 }
