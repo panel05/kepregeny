@@ -1,0 +1,11 @@
+body{
+    background-image: url("kepek/hatter3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    max-width: 800px;
+    margin: auto;
+    background-color: wheat;
+
+}
