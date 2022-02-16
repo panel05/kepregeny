@@ -2,10 +2,50 @@ body{
     background-image: url("kepek/hatter3.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9;
 }
 main{
     max-width: 800px;
     margin: auto;
     background-color: wheat;
+    display: flex;
+    flex-direction: column;
 
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    font-size: smaller;
+}
+
+header{
+    text-align: center;
+}
+
+article img{
+    padding: 50px;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+article img:hover{
+    transform: scale(1.5);
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
 }
