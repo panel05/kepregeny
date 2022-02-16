@@ -15,6 +15,16 @@ main {
     flex-direction: column;
 }
 
+nav {
+    background-color: #eaba61;
+    padding: 20px;
+}
+
+nav div a {
+    text-decoration: none;
+    display: inline-block;
+}
+
 article {
     display: flex;
     justify-content: center;
@@ -22,4 +32,16 @@ article {
 
 article .comics {
     flex-direction: row;
+}
+
+footer {
+    padding: 20px;
+    background-color: #eaba61;
+}
+
+
+@media screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
 }
