@@ -29,14 +29,10 @@ nav div a {
 
 article {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    gap: 5px;
 }
 
 article .comics {
-    display: flex;
     flex-direction: row;
 }
 
@@ -47,7 +43,12 @@ footer {
 
 
 @media screen and (max-width: 600px) {
+    main {
+        max-width: 100%;
+    }
+    
     article .comics {
+        display: flex;
         flex-direction: column;
     }
 }
