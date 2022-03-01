@@ -23,6 +23,8 @@ nav {
 nav div a {
     text-decoration: none;
     display: inline-block;
+    color: black;
+    margin: 0 10px 0 10px;
 }
 
 article {
