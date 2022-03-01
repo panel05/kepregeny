@@ -6,7 +6,7 @@ body{
 }
 
 header{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(217, 115, 115);
     width: 1000px;
     border: 1px solid black;
     text-align: center;
@@ -15,10 +15,11 @@ header{
 nav{
     padding: 10px;
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(217, 115, 115);
 }
 .menubar a{
     text-decoration: none;
+    color: black;
     padding: 10px;
 }
 
@@ -34,10 +35,30 @@ article{
 
 article img {
     max-width: 100%;
-    padding:20px;
+    padding:10px;
+}
+
+article div h2 {
+    text-decoration: underline;
 }
 
 footer{
     text-align: center;
-    background-color: white;
+    background-color: rgb(180, 50, 50);
+    margin: 20px;
+}
+@media screen and (max-width: 600px) {
+    main, header {
+        max-width: 100%;
+        text-align: center;
+    }
+    article .kepregeny {
+        display: flex;
+        flex-direction: column;
+    }
+
+    article .kepregeny img {
+        width: 80%;
+        align-self: center;
+    }
 }
