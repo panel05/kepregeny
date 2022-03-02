@@ -67,3 +67,13 @@ article{
     gap: 10px;
     justify-content: space-evenly;
 }
+
+@media screen and (max-width: 600px) {
+    main {
+        max-width: 100%;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+    }
+}
